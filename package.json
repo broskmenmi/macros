@@ -15,6 +15,7 @@
   "author": "Brosk Menmi",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "express": "^4.16.4",
     "express-handlebars": "^3.0.2"
   }
