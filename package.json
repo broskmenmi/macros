@@ -1,0 +1,21 @@
+{
+  "name": "calories",
+  "version": "1.0.0",
+  "description": "A simple calorie and macros counter",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "calories",
+    "macros",
+    "weight",
+    "loss"
+  ],
+  "author": "Brosk Menmi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2"
+  }
+}
