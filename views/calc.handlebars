@@ -1,0 +1,34 @@
+<form>
+    {{#unless age}}
+    {{#unless height}}
+    {{#unless weight}}
+    
+    <div class="form-group">
+        <label for="age">Age</label>
+        <input type="number" class="form-control" id="age" aria-describedby="ageHelp" placeholder="Enter age">
+        <small id="ageHelp" class="form-text text-muted">Age in years!</small>
+    </div>
+
+    <div class="form-group">
+        <label for="height">Height</label>
+        <input type="number" class="form-control" id="height" aria-describedby="heightHelp" placeholder="Enter height">
+        <small id="heightHelp" class="form-text text-muted">Input height in cm!</small>
+    </div>
+
+    <div class="form-group">
+        <label for="weight">Weight</label>
+        <input type="number" class="form-control" id="weight" aria-describedby="weightHelp" placeholder="Enter weight">
+        <small id="weightHelp" class="form-text text-muted">Weight in cm!</small>
+    </div>
+
+    <div class="row">
+        <div class="col text-center">
+            <button class="btn btn-primary">Start</button>
+        </div>
+    </div>
+    
+    {{/unless}}
+    {{/unless}}
+    {{/unless}}
+
+</form>
